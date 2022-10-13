@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home_fragment">
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="br.com.project.devpay.presentation.fragments.Home.HomeFragment"
+        android:label="Tela inicial"
+        tools:layout="@layout/home_fragment">
+        <action
+            android:id="@+id/fromHomeFragmentToLoginFragment"
+            app:destination="@id/login_fragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/login_fragment"
+        android:name="br.com.project.devpay.presentation.fragments.Login.LoginFragment"
+        android:label="Tela de login"
+        tools:layout="@layout/login_fragment">
+        <action
+            android:id="@+id/action_login_fragment_to_home_fragment"
+            app:destination="@id/home_fragment"
+            app:popEnterAnim="@android:anim/slide_out_right"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/fromLoginFragmentToPrincipalFragment"
+            app:destination="@id/tela_principal_fragment"
+            app:enterAnim="@android:anim/fade_in" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/tela_principal_fragment"
+        android:name="br.com.project.devpay.presentation.fragments.TelaPrincipal.TelaPrincipalFragment"
+        android:label="Tela principal"
+        tools:layout="@layout/tela_principal_fragment"/>
+
+</navigation>

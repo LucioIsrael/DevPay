@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "943765835156",
+    "project_id": "devpay-b7a12",
+    "storage_bucket": "devpay-b7a12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943765835156:android:01daf6d4013ab615c59381",
+        "android_client_info": {
+          "package_name": "br.com.project.devpay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943765835156-4etm696dsmjonf1icmfgb2ait77p98se.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfWTBXrV_H_vh_LeKxqXLKAN3cH8lf9Jg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943765835156-4etm696dsmjonf1icmfgb2ait77p98se.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

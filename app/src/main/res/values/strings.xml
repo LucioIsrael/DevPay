@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DevPay</string>
+    <string name="cadastre_se_home">Cadastre-se</string>
+    <string name="ja_sou_cliente_home">Já sou cliente</string>
 </resources>
